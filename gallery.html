@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Blog</title>
+<title>Gallery </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Travelia Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -11,7 +11,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />	
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<link rel="stylesheet" type="text/css" href="css/style3.css" />
 <script src="js/jquery.min.js"> </script>
 <!--/script-->
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -24,6 +23,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			});
 </script>
+	<script src="js/jquery.chocolat.js"></script>
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css"/>
+  <!-- Javascript calls -->
+		<script type="text/javascript">
+				$(function() {
+					$('#portfolio a').Chocolat({overlayColor:'#000',leftImg:'images/leftw.gif',rightImg:'images/rightw.gif',closeImg:'images/closew.gif'});
+				});
+		</script>
 
 </head>
 <body>
@@ -40,8 +47,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="index.html" data-hover="HOME">Home</a></li> 
 						<li><a href="about.html" data-hover="About">About</a></li>
 						<li><a href="typography.html" data-hover="SERVICES">SERVICES</a></li>
-						<li><a href="gallery.html" data-hover="Gallery">Gallery</a></li>
-						<li><a class="active" href="blog.html" data-hover="BLOG">BLOG</a></li>
+						<li><a class="active" href="gallery.html" data-hover="Gallery">Gallery</a></li>
+						<li><a href="blog.html" data-hover="BLOG">BLOG</a></li>
 						<li><a href="contact.html" data-hover="CONTACT">Contact</a></li>
 					</ul>
 				</div>
@@ -57,7 +64,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			    </div>
 
 			<!-- script-for-menu -->
-				<script>
+			<script>
 				$( "span.menu" ).click(function() {
 				  $( ".top-menu" ).slideToggle( "slow", function() {
 				    // Animation complete.
@@ -71,75 +78,64 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	 <div class="banner two">
 		 <div class="container">
-		    <h2 class="second">Blogs</h2>
+		    <h2 class="second">Gallery</h2>
 		 </div>
      </div>
 </div>
-<!--start-blog-->
-		<div id="blog" class="blog-section">
-		   <div class="container">
-				 <div class="blog">
-				   <div class="col-md-4 blog-text">
-					   <h5>Sun 30 Aug, 2015</h5>
-					   <a href="single.html"><h4>EXCEPTEUR SINT OCCAECAT CUPIDATAT NON</h4></a>
-					   <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-				   </div>
-					<div class="col-md-8 welcome-img">
-					 <a href="single.html" class="mask"><img src="images/b1.jpg" alt="image" class="img-responsive zoom-img"></a>
+<!--start-gallery-->
+<div class="gallery" id="portfolio">
+		<div class="container">
+			<div class="gallery-bottom">
+					<div class="col-md-4 gallery-left">
+						<a href="images/g1.jpg">
+							<img src="images/g1.jpg" alt="name" />
+						</a>
 					</div>
-				   <div class="clearfix"> </div>
-			   </div>
-			    <div class="blog">
-				 <div class="col-md-4 blog-text two">
-					   <h5>Thu 15 Sep, 2015</h5>
-					  <a href="single.html"><h4>LOREM IPSUM DOLOR SIT AMET CONSE</h4></a>
-					   <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-				   </div>
-					<div class="col-md-8 blog-img two">
-					 <a href="single.html" class="mask"><img src="images/b2.jpg" alt="image" class="img-responsive zoom-img"></a>
+					<div class="col-md-4 gallery-left">
+						<a href="images/g2.jpg">
+							<img src="images/g2.jpg" alt="name" />
+						</a>
 					</div>
-				   <div class="clearfix"> </div>
-			   </div> 
-			    <div class="blog">
-				   <div class="col-md-4 blog-text">
-					   <h5>Fri 14 Dec, 2015</h5>
-					   <a href="single.html"><h4>EXCEPTEUR SINT OCCAECAT CUPIDATAT NON</h4></a>
-					   <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-				   </div>
-					<div class="col-md-8 welcome-img">
-					 <a href="single.html" class="mask"><img src="images/b3.jpg" alt="image" class="img-responsive zoom-img"></a>
+					<div class="col-md-4 gallery-left">
+						<a href="images/g3.jpg">
+							<img src="images/g3.jpg" alt="name" />
+						</a>
 					</div>
-				   <div class="clearfix"> </div>
-			   </div>
-			      <div class="blog">
-				 <div class="col-md-4 blog-text two">
-					   <h5>Thu 15 Sep, 2015</h5>
-					  <a href="single.html"><h4>LOREM IPSUM DOLOR SIT AMET CONSE</h4></a>
-					   <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-				   </div>
-					<div class="col-md-8 blog-img two">
-					 <a href="single.html" class="mask"><img src="images/b4.jpg" alt="image" class="img-responsive zoom-img"></a>
+					<div class="col-md-4 gallery-left">
+						<a href="images/g4.jpg">
+							<img src="images/g4.jpg" alt="name" />
+						</a>
 					</div>
-				   <div class="clearfix"> </div>
-			   </div>
-			   <!--start-blog-pagenate-->
-					<div class="blog-pagenat">
-						<ul>
-							<li><a class="frist" href="#">Prev</a></li>
-							<li><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li><a href="#">6</a></li>
-							<li><a class="last" href="#">Next</a></li>
-						</ul>
+					<div class="col-md-4 gallery-left">
+						<a href="images/g6.jpg">
+							<img src="images/g6.jpg" alt="name" />
+						</a>
 					</div>
-				<!--//End-blog-pagenate-->
-
+					<div class="col-md-4 gallery-left">
+						<a href="images/g2.jpg">
+							<img src="images/g2.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-4 gallery-left">
+						<a href="images/g1.jpg">
+							<img src="images/g2.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-4 gallery-left">
+						<a href="images/g2.jpg">
+							<img src="images/g3.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-4 gallery-left">
+						<a href="images/g3.jpg">
+							<img src="images/g1.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="clearfix"></div>
+			</div>
 		</div>
-	</div>
-	<!--//blog-->
+	</div>	
+	<!--//portfolio-->
    <!--contact-->
 		<div class="contact" id="contact">
 			<div class="container">
